@@ -1,5 +1,5 @@
 Summary:	Slovak dictionary for aspell
-Summary(pl):	S這wacki s這wnik dla aspella
+Summary(pl):	S這wnik s這wacki dla aspella
 Name:		aspell-sk
 Version:	0.52
 %define	subv	0
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Slovak dictionary (i.e. word list) for aspell.
 
 %description -l pl
-S這wacki s這wnik (lista s堯w) dla aspella.
+S這wnik s這wacki (lista s堯w) dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
