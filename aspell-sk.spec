@@ -35,7 +35,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-mv -v doc/README README.sk
+mv -v doc/README.sk README.sk
 
 %clean
 rm -rf $RPM_BUILD_ROOT
