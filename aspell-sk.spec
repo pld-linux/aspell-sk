@@ -1,14 +1,14 @@
 Summary:	Slovak dictionary for aspell
 Summary(pl):	S³owacki s³ownik dla aspella
 Name:		aspell-sk
-Version:	0.50
-%define	subv	2
-Release:	2
+Version:	0.52
+%define	subv	0
+Release:	1
 Epoch:		1
 License:	GPL v2
 Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/sk/%{name}-%{version}-%{subv}.tar.bz2
-# Source0-md5:	8f4db7bf8ffe8c49cd16621620a43240
+# Source0-md5:	ce90b109f7c602bde949880920bbbbfd
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 0.50.0
 Requires:	aspell >= 0.50.0
