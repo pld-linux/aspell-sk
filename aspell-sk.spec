@@ -8,6 +8,7 @@ Epoch:		1
 License:	GPL v2
 Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/sk/%{name}-%{version}-%{subv}.tar.bz2
+# Source0-md5:	8f4db7bf8ffe8c49cd16621620a43240
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 0.50.0
 Requires:	aspell >= 0.50.0
