@@ -1,5 +1,5 @@
 Summary:	Slovak dictionary for aspell
-Summary(pl.UTF-8):   Słownik słowacki dla aspella
+Summary(pl.UTF-8):	Słownik słowacki dla aspella
 Name:		aspell-sk
 Version:	0.52
 %define	subv	0
