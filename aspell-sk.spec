@@ -1,5 +1,5 @@
 Summary:	Slovak dictionary for aspell
-Summary(pl):	S³ownik s³owacki dla aspella
+Summary(pl.UTF-8):   SÅ‚ownik sÅ‚owacki dla aspella
 Name:		aspell-sk
 Version:	0.52
 %define	subv	0
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Slovak dictionary (i.e. word list) for aspell.
 
-%description -l pl
-S³ownik s³owacki (lista s³ów) dla aspella.
+%description -l pl.UTF-8
+SÅ‚ownik sÅ‚owacki (lista sÅ‚Ã³w) dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
