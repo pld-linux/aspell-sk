@@ -12,6 +12,7 @@ Source0:	http://ftp.gnu.org/gnu/aspell/dict/sk/aspell6-sk-%{version}-%{subv}.tar
 # Source0-md5:	b31bdc33a681902e5bc493a0692022a9
 URL:		http://www.sk-spell.sk.cx/aspell-sk
 BuildRequires:	aspell >= 3:0.60
+BuildRequires:	which
 Requires:	aspell >= 3:0.60
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
