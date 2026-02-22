@@ -14,6 +14,7 @@ URL:		http://www.sk-spell.sk.cx/aspell-sk
 BuildRequires:	aspell >= 3:0.60
 BuildRequires:	which
 Requires:	aspell >= 3:0.60
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -46,9 +47,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Copyright README doc/{AUTHORS,CHANGELOG}
-%{_libdir}/aspell/sk.*
-%{_libdir}/aspell/sk_SK.alias
-%{_libdir}/aspell/slovak.alias
-%{_libdir}/aspell/slovensky.alias
+%{_prefix}/lib/aspell/sk.*
+%{_prefix}/lib/aspell/sk_SK.alias
+%{_prefix}/lib/aspell/slovak.alias
+%{_prefix}/lib/aspell/slovensky.alias
 %{_datadir}/aspell/sk.dat
 %{_datadir}/aspell/sk_affix.dat
