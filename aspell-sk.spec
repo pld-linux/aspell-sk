@@ -4,7 +4,7 @@ Summary(sk.UTF-8):	Slovenské slovníky pre program ASpell
 Name:		aspell-sk
 Version:	2.01
 %define	subv	2
-Release:	2
+Release:	3
 Epoch:		1
 License:	GPL v2 or LGPL v2.1 or MPL 1.1
 Group:		Applications/Text
